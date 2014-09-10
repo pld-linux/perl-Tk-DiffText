@@ -18,10 +18,12 @@ URL:		http://search.cpan.org/dist/Tk-DiffText/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Tie::Tk::Text) >= 0.01
 BuildRequires:	perl-Algorithm-Diff >= 1.13
+BuildRequires:	perl-Tie-Tk-Text >= 0.01
 BuildRequires:	perl-Tk
 %endif
+Requires:	perl-Algorithm-Diff >= 1.13
+Requires:	perl-Tie-Tk-Text >= 0.01
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
