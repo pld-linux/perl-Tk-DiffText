@@ -4,7 +4,6 @@
 
 %define		pdir	Tk
 %define		pnam	DiffText
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::DiffText - Perl/Tk composite widget for colorized diffs
 Name:		perl-Tk-DiffText
 Version:	0.19
