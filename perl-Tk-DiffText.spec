@@ -7,7 +7,7 @@
 Summary:	Tk::DiffText - Perl/Tk composite widget for colorized diffs
 Name:		perl-Tk-DiffText
 Version:	0.19
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
